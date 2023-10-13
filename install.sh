@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Specify the files and directories to be installed
 files=("tmux.conf" "vimrc" "zshrc")
 directories=("vim" "nvim")
 
@@ -29,8 +28,4 @@ for directory in "${directories[@]}"; do
     backup_and_install "$directory"
 done
 
-# Additional installation steps, if needed
-# ...
-
 echo "Installation complete."
-
