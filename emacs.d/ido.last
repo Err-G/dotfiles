@@ -2,17 +2,19 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/nfs/" . "homes/")
  ("/nfs/homes/ecarvalh/cc/eval/fdf.dflores-/" . "sources/")
  ("/nfs/homes/ecarvalh/cc/eval/" . "fdf.dflores-/")
  ("/nfs/homes/ecarvalh/cc/" . "get_next_line/")
- ("/nfs/homes/ecarvalh/" . "cc/")
+ ("/nfs/homes/ecarvalh/" . ".emacs.d/")
  ("/nfs/homes/" . "ecarvalh/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/nfs/homes/ecarvalh/.emacs.d/"
  "/nfs/homes/ecarvalh/cc/get_next_line/"
+ "/nfs/homes/ecarvalh/.emacs.d/"
+ "/nfs/homes/"
  "/nfs/homes/ecarvalh/cc/libft/"
  "/nfs/homes/ecarvalh/"
  "/nfs/homes/ecarvalh/cc/eval/fdf.dflores-/sources/"
@@ -20,8 +22,10 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
  "get_next_line.c"
+ "get_next_line_utils.c"
+ "init.el"
+ "TAGS"
  "ft_lstclear_bonus.c"
  "ft_lstlast_bonus.c"
  ".xinitrc"
@@ -31,13 +35,15 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/nfs/homes/ecarvalh/.emacs.d/" (25914 31219 170919 16000) "init.el" "ido.last" "auto-save-list/" "smex-items" "elpa/" ".#init.el" "games/" "transient/" "../" "./")
+ ("/nfs/homes/ecarvalh/cc/get_next_line/" (25914 39928 678848 285000) "visualization" "TAGS" ".#get_next_line.c" "test.txt" "README.md" "get_next_line.h" "get_next_line_utils.c" "get_next_line.c" ".git/" "main.c" "../" "./")
 
- ("/nfs/homes/ecarvalh/cc/get_next_line/" (25914 30406 712150 120000) "visualization" "test.txt" "README.md" "get_next_line.h" "get_next_line_utils.c" "get_next_line.c" ".git/" "main.c" "../" "./")
+ ("/nfs/homes/ecarvalh/.emacs.d/" (25914 38305 837718 78000) "init.el" "ido.last" "auto-save-list/" "init.el~" "smex-items" "elpa/" "games/" "transient/" "../" "./")
+
+ ("/nfs/" (25619 15946 930306 294000) "homes/" "lost+found/" "sgoinfre/" "../" "./")
+
+ ("/nfs/homes/ecarvalh/" (25914 34759 694486 500000) ".gnupg/" "cc/" ".dmrc" ".themes/" ".code_files/" ".scripts/" ".zcompdump" ".vscode-cli/" ".bash_history" ".vscode/" ".tmux.conf" ".xinitrc" "Documents/" ".docker/" ".java/" ".dotnet/" "Desktop/" ".local/" "42-EXAM/" ".swp" ".lesshst" ".xsession-errors" "colemak_dh_ansi_us_wide.xmodmap" ".wget-hsts" "Music/" ".dbus/" "cmatrix" "Public/" "Downloads/" ".zsh_history" ".viminfo" ".gitconfig" ".config/" "Videos/" ".oh-my-zsh/" "Templates/" ".emacs.d/" ".icons/" ".cache/" ".vim/" ".Xmodmap" "francinette/" ".ssh/" ".xsession-errors.old" ".node_repl_history" "sgoinfre/" ".nvim/" ".var/" "donut" "VirtualBox VMs/" "dotfiles_backup/" ".viminfo.tmp" "goinfre/" "Pictures/" "Postman/" ".zshrc" ".pki/" ".mozilla/" ".vimrc" ".Xauthority" "../" "./")
 
  ("/nfs/homes/ecarvalh/cc/libft/" (25914 28551 973394 994000) "ft_isprint.c" "Makefile" "ft_substr.c" "ft_strtrim.c" "ft_lstdelone_bonus.c" "ft_putnbr_fd.c" "ft_split.c" "ft_tolower.c" "ft_memmove.c" "ft_memcpy.c" "ft_strrchr.c" "ft_memset.c" "ft_lstadd_back_bonus.c" "ft_memchr.c" "ft_lstiter_bonus.c" "ft_bzero.c" "ft_lstadd_front_bonus.c" "ft_calloc.c" "ft_strncmp.c" "ft_isalnum.c" "README.md" "ft_lstnew_bonus.c" "ft_lstmap_bonus.c" "ft_strmapi.c" "ft_strchr.c" "ft_strdup.c" "ft_putendl_fd.c" "ft_atoi.c" "ft_putstr_fd.c" "ft_itoa.c" "ft_strlen.c" "ft_isdigit.c" "libft.h" "ft_lstsize_bonus.c" "ft_strlcpy.c" "ft_strnstr.c" "ft_putchar_fd.c" "ft_memcmp.c" "ft_strlcat.c" "ft_lstlast_bonus.c" ".git/" "ft_isascii.c" "ft_lstclear_bonus.c" "ft_striteri.c" "ft_toupper.c" "ft_strjoin.c" "ft_isalpha.c" "../" "./")
-
- ("/nfs/homes/ecarvalh/" (25914 28345 283502 558000) ".gnupg/" "cc/" ".dmrc" ".themes/" ".code_files/" ".scripts/" ".zcompdump" ".vscode-cli/" ".bash_history" ".vscode/" ".tmux.conf" ".xinitrc" "Documents/" ".docker/" ".java/" ".dotnet/" "Desktop/" ".local/" "42-EXAM/" ".swp" ".lesshst" ".xsession-errors" "colemak_dh_ansi_us_wide.xmodmap" ".wget-hsts" "Music/" ".dbus/" "cmatrix" "Public/" "Downloads/" ".zsh_history" ".viminfo" ".gitconfig" ".config/" "Videos/" ".oh-my-zsh/" "Templates/" ".emacs.d/" ".icons/" ".cache/" ".vim/" ".Xmodmap" "francinette/" ".ssh/" ".xsession-errors.old" ".node_repl_history" "sgoinfre/" ".nvim/" ".var/" "donut" "VirtualBox VMs/" "dotfiles_backup/" ".viminfo.tmp" "goinfre/" "Pictures/" "Postman/" ".zshrc" ".pki/" ".mozilla/" ".vimrc" ".Xauthority" "../" "./")
 
  ("/nfs/homes/ecarvalh/.emacs.d/games/" (25914 28202 744991 61000) "snake-scores" "../" "./")
 

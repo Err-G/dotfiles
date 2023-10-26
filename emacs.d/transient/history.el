@@ -1,1 +1,1 @@
-nil
+((magit-status-jump nil))
