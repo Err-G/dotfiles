@@ -1,0 +1,29 @@
+
+;; ----- smex-history -----
+(
+ evil-mode
+ global-whitespace-mode
+ column-number-mode
+ customize-face
+ whitespace-mode
+ whitespace-newline-mode
+ ansi-term
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 2)
+ (package-refresh-contents . 1)
+ (evil-mode . 3)
+ (indent-region . 1)
+ (snake . 4)
+ (ansi-term . 2)
+ (help-with-tutorial . 1)
+ (tetris . 1)
+ (find-file . 1)
+ (global-whitespace-mode . 7)
+ (whitespace-newline-mode . 4)
+ (whitespace-mode . 3)
+ (customize-face . 1)
+ (column-number-mode . 1)
+)

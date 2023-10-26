@@ -1,7 +1,7 @@
 #!/bin/bash
 
 files=("tmux.conf" "vimrc" "zshrc")
-directories=("vim" "nvim")
+directories=("vim" "nvim" "emacs.d")
 
 # Backup existing files
 backup_dir="$HOME/dotfiles_backup"
