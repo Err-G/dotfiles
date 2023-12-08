@@ -1,23 +1,18 @@
-# Vim keys on zsh
-## EMACS ROCKS
-bindkey -e
+# My own prompt
+export PROMPT="%(?.%F{green}.%F{red}[%?] )%1~%f "
 
-# Nice and minimal prompt, nothing more
-PROMPT="%(?.%F{green}.%F{red}[%?] )%1~%f "
-
-# Path config
+# Path for my own applications
 export PATH="$HOME/.local/bin/:$PATH"
 
-# Francinette
-alias paco="$HOME/francinette/tester.sh"
+# Aliases
+alias ls="ls --color=auto"
+alias la="ls -la --color=auto"
+alias diff="diff --color=auto"
+alias grep="grep --color=auto"
 
-# Colors
-alias ls="ls --color"
-alias diff="diff --color"
-alias grep="grep --color"
-alias vi="nvim"
+alias vi="vim"
 
-# Good history config
+# Good history
 export HISTSIZE=65536
 export SAVEHIST=65536
 export HISTFILE="$HOME/.zsh_history"

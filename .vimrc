@@ -1,22 +1,26 @@
 syntax on
 filetype on
 
-colorscheme desert
-highlight Normal guibg=#000000 ctermbg=16
+colo retrobox
+hi Normal guibg=#000000 ctermbg=16
 
-set ts=4 sw=4 mouse=a	" tab size
-set noet si				" tabs instead of spaces
-set nu rnu				" line numbers
-set hls is				" better search
-set ai					" better indent
+" Settings
+se nocp				" no compatible
+se ts=4 sw=4 noet	" tabulation
+se nu rnu 			" numbers
+se si ai			" indentation
+se hls is			" search
+se mouse=a			" mouse
 
-" show ocult characters
+" display
 set list lcs=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 
-" better terminal
-autocmd TerminalOpen * setlocal nonu nornu
-tnoremap <Esc> <C-\><C-n>
+" Keybindings
+let g:mapleader="\<space>"
 
-let g:mapleader="<space>"
-nnoremap <leader>w <C-w>
-nnoremap <leader>t :term<CR>
+nn <leader>w <C-w>
+nn <leader>t :term<CR>
+
+" Terminal integration
+au TerminalOpen * setlocal nonu nornu
+tno <Esc> <C-\><C-n>
